@@ -1,0 +1,116 @@
+主要的格式   选择器（html里的tag）{属性:值；}
+三种添加方式：外部样式表 、内部样式表、内联样式表
+    外部样式表 将css保存在.CSS文件中，在HTML的head部分用<link>引用
+    内部样式表：不使用外部文件 将CSS放在HTML的<style>里
+    尽量不用——内联样式表：仅影响一个元素 在html的<style>的属性中添加
+<link rel="stylesheet" href="./css/style.css">
+
+<p class="paragraph" id="para1"> </p> (id应保证独一无二)
+针对上述的三种构建的方式
+    p{color:red;}
+    .paragraph{color:red;}
+    #para1{color:red;}
+
+几种常见的关键字
+background-color: 背景色
+color 字的颜色（关键词 black ，十六进制的值 \RGB \HSL \RGBA ）
+width：宽度
+font-family：字体名，形式名(sans-serif 无衬线 serif 有衬线 monospace等宽)可以有多个字体名，第一个字体名优先，找不到的时候找第二个
+font-size:字体大小
+font-weight:字重
+font-style：斜体
+text——decoration:underline 下划线
+text-transform:uppercase 全大写
+letter——spacing :字母间距
+word-spacing ：词间距
+line-height：行高
+
+盒子模型 box （当两个盒子连在一起时只会取其中一个最大的外边距作为两个盒子的外边距）
+    margin 外边距
+        margin-top
+        margin-bottom
+        margin-left
+        margin-right
+        margin: (top) (right) (bottom) (left); 顺时针方向
+    border边框  同理 多了solid 实线 dotted虚线 都变了
+    padding 内边距 同理
+    text——
+
+对列表 list
+list-style-image（针对的是list前面的点） : url(一个图片的路径)  url('../路径')（..走出css文件夹）
+.list li:nth-child(even（偶数）){ }
+.list li:first-child{ }
+
+对于button
+button：haver(鼠标放上去的时候){  }
+button:active（鼠标按下）{ }
+
+对于超链接a
+a{
+    text-decoration:none取消下划线
+}
+a:haver  { }
+a:visited{ }
+
+块和块并排
+float:left 
+width:33.3%;
+（加了边框宽度就变了）用box-sizing：border-box
+
+用完float记得清除
+class="clearfix"
+
+CSS中的位置
+static-静态定位
+relative-相对定位-针对未平移的之前位置进行平移，原来位置进行保留
+absolute-绝对定位——对于父节点的位置而言的top left 本来位置不保留
+    在父节点不是relative时，去找根节点做偏移——针对视窗页面而言
+fixed-固定定位
+sticky(导航栏固定在上面不动)
+
+浮动的弹窗
+<button id='fixed'>Button </button>
+
+#fixed{
+    position : fixed;
+    right:0;
+    buttom: 0;
+}
+
+
+    <nav>
+        <!-- 本站统一的导航栏 -->
+        <ul>
+            <li><a href="#">主页</a></li>
+            <li><a herf="#">登录</a></li>
+            <!-- 共n个导航栏项目，省略…… -->
+        </ul>
+
+        <form>
+            <!-- 搜索栏是站点内导航的一个非线性的方式。 -->
+            <input type="search" name="q" placeholder="要搜索的内容">
+            <input type="submit" value="搜索">
+        </form>
+    </nav>
+
+    <div class="main">
+        <!-- 网页主体内容 -->
+        <article>
+            4123
+            <!-- 此处包含一个 article（一篇文章），内容略…… -->
+        </article>
+
+        <aside>
+            <!-- 侧边栏在主内容右侧 -->
+            <h2>相关链接</h2>
+            <ul>
+                <li><a href="#">这是一个超链接</a></li>
+                <!-- 侧边栏有n个超链接，略略略…… -->
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <!-- 本站所有网页的统一页脚 -->
+        <p>如有问题请联系网页作者的邮箱1753373709@qq.com</p>
+    </footer>
