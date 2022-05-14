@@ -109,6 +109,36 @@
     font-size: 20px;
 }
 
+.sort {
+    height: 50px;
+    background-color: #fa3535;
+}
+
+.sort a {
+    color: #fff;
+}
+
+.menu_guide {
+    float: left;
+    color: #fff;
+    height: 100%;
+    line-height: 50px;
+    width: 24.75%;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.menu_guide:hover {
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+.menu_guide:hover a {
+    color: #fa3535;
+}
+
 .nav_shop_car a {
     color: orange;
 }
