@@ -1,29 +1,53 @@
-html {
-    background-color: burlywood;
-    font-family: Arial, Helvetica, serif;
-    margin: 0;
-}
+/*  网页总体 */
 
-.biaoti {
+* {
     margin: 0;
-    width: 100%;
     padding: 0;
-    background-color: aqua;
-    height: 40px;
 }
 
-#logo {
-    float: left;
-    width: 6%;
+li {
+    list-style: none;
 }
 
-#page_title {
-    float: right;
-    width: 94%;
-    text-align: center;
-    font-size: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+button.input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.hide.none {
+    display: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
 }
