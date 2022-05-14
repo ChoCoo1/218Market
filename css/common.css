@@ -98,38 +98,7 @@
     line-height: 50px;
 }
 
-.dropdown .dd {
-    height: 50px;
-    background-color: #fa3535;
-    margin-top: 2px;
-}
-
-.dropdown .dd a {
-    color: #fff;
-}
-
-.menu_guide {
-    float: left;
-    color: #fff;
-    height: 100%;
-    line-height: 50px;
-    width: 25%;
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    box-sizing: content-box;
-}
-
-.menu_guide:hover {
-    background-color: #fff;
-    color: #fa3535;
-}
-
-.menu_guide:hover a {
-    color: #fa3535;
-}
-
-.nav_shopcar {
+.nav_shop_car {
     color: orange;
     height: 50px;
     display: block;
@@ -140,7 +109,7 @@
     font-size: 20px;
 }
 
-.nav_shopcar a {
+.nav_shop_car a {
     color: orange;
 }
 
@@ -160,19 +129,20 @@
 }
 
 .footer {
-    height: 105px;
+    height: 60px;
     background-color: #f1f1f1;
     padding-top: 15px;
 }
 
 .mod_help {
-    height: 80px;
+    height: 45px;
     border-bottom: 2px solid rgb(170, 170, 170);
 }
 
 .mod_help ul {
     color: #666;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .mod_copyright {

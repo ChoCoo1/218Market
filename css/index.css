@@ -1,0 +1,35 @@
+.main {
+    height: 1000px;
+    width: 100%;
+    background-color: pink;
+}
+
+.sort {
+    height: 50px;
+    background-color: #fa3535;
+}
+
+.sort a {
+    color: #fff;
+}
+
+.menu_guide {
+    float: left;
+    color: #fff;
+    height: 100%;
+    line-height: 50px;
+    width: 25%;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: content-box;
+}
+
+.menu_guide:hover {
+    background-color: #fff;
+    color: #fa3535;
+}
+
+.menu_guide:hover a {
+    color: #fa3535;
+}
