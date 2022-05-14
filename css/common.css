@@ -15,6 +15,13 @@
     color: #d63b3b;
 }
 
+.space {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 8px 12px 0;
+}
+
 .shortcut {
     height: 30px;
     background-color: #f1f1f1;
@@ -24,3 +31,9 @@
 .shortcut li {
     float: left;
 }
+
+.header {
+    height: 105px;
+}
+
+.logo {}

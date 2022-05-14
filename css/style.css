@@ -20,6 +20,7 @@ button {
 
 a {
     text-decoration: none;
+    color: #666;
 }
 
 a:hover {
@@ -51,3 +52,5 @@ body {
 .clearfix {
     *zoom: 1;
 }
+
+.logo {}
