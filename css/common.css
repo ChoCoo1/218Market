@@ -51,6 +51,6 @@
     display: block;
     width: 100px;
     height: 100px;
-    background-color: url(../img/logo.png) no-repeat;
+    background-color: url(../img/logo.png);
     font-size: 0;
 }
