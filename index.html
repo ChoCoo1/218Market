@@ -7,7 +7,21 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="./css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
-
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        @font-face {
+            font-family: 'iconfont';
+            src: url('./iconfont/iconfont.ttf?t=1652515312226') format('truetype');
+        }
+        
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 20px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,7 +41,7 @@
                 <ul>
                     <li><a href="#">我的购物车 </a></li>
                     <li class="space"></li>
-                    <li><a href="#">提交反馈信息 </a></li>
+                    <li><a href="https://github.com/ChoCoo1/218Market/pulls/">提交反馈信息 </a></li>
                 </ul>
 
             </div>
@@ -48,7 +62,46 @@
             <button class="btn">搜索</button>
         </div>
     </div>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <div class="w">
+            <div class="dropdown fl">
+                <div class="dt"> 商品分类 </div>
+                <div class="dd" style="display:none;">
+                    <div>
+                        <div class="menu_guide"><a href="#">零食</a></div>
+                        <div class="menu_guide"><a href="#">饮料、酒类</a></div>
+                        <div class="menu_guide"><a href="#">日用品</a></div>
+                        <div class="menu_guide"><a href="#">其他</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_shopcar fl"><a href="#"><span class="iconfont">&#xe659</span><b>购物车</b> </a>
+            </div>
+            <div class="nav_text_shopper fl"><a href="#"><span class="iconfont">&#xe637</span> <b>联系商家</b> </a>
+            </div>
+        </div>
+    </div>
 
+
+
+
+
+
+    <!-- 页尾 -->
+    <div class="footer w">
+        <div class="mod_help">
+            <ul>
+                <li class="shopper_connection">如果网站使用方面出现bug,建议访问<a href="https://github.com/ChoCoo1/218Market/pulls/">https://github.com/ChoCoo1/218Market/pulls/</a>提交错误内容</li>
+                <li class="shopper_connection">网站维护QQ:1753373709</li>
+                <li class="shopper_connection">网站维护WX:19457853241</li>
+                <li class="shopper_connection">网站维护邮箱:1753373709@qq.com</li>
+            </ul>
+        </div>
+        <div class="mod_copyright">
+            <p>Copyright © 2022 - 2050 218Market.com 版权所有</p>
+        </div>
+    </div>
 </body>
 
 </html>
