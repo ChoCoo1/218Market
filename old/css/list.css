@@ -1,0 +1,112 @@
+.sk_hd {
+    color: #f72828;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 2px solid #f72828;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.sk_bd {
+    margin-top: 25px;
+}
+
+.sk_bd:hover {
+    border: #e60012;
+}
+
+.sk_bd ul {
+    width: 1212px;
+}
+
+.sk_goods {
+    position: relative;
+    float: left;
+    width: 288px;
+    height: 420px;
+    margin: 0 13px 15px 0;
+    border: 1px solid transparent;
+}
+
+.sk_goods:hover {
+    border: 1px solid #e12228;
+}
+
+.sk_goods_title {
+    font-size: 15px;
+    color: #666;
+    font-weight: normal;
+    padding: 10px 10px 0;
+}
+
+.sk_goods_price {
+    padding: 0 10px;
+    font-size: 30px;
+    color: #e60012;
+}
+
+.sk_goods_number {
+    font-size: 10px;
+    padding: 0 10px;
+    color: #666;
+}
+
+.sk_goods_buy {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    background-color: #f73030;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+}
+
+.page {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+.page_num .pn_prev,
+.page_num .pn_next {
+    width: 86px;
+}
+
+.page_num .dotted,
+.page_num .current {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.page_skip input {
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.page_skip input:focus {
+    width: 80px;
+    border: 1px solid skyblue;
+}
+
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}

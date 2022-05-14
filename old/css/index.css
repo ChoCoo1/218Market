@@ -1,0 +1,45 @@
+.main {
+    width: 100%;
+}
+
+.news {
+    height: 30px;
+    background-color: rgb(253, 195, 6);
+    width: 100%;
+    border-top: 2px solid rgb(238, 133, 73);
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #ff5252;
+    margin-top: 20px;
+    color: #fa3535;
+    line-height: 30px;
+    text-align: center;
+}
+
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    width: 70px;
+    left: 50%;
+    margin-left: -700px;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: rgb(241, 67, 96);
+    color: #fff;
+}
