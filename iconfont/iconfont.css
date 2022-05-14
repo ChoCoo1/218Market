@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1652515312226') format('truetype');
+  src: url('iconfont.ttf?t=1652522025298') format('truetype');
 }
 
 .iconfont {
@@ -9,6 +9,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zizhutuiguang:before {
+  content: "\f0104";
 }
 
 .icon-shouye:before {

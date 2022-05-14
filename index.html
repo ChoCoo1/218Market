@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>218Market</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
     <style>
@@ -39,9 +39,9 @@
             </div>
             <div class="fr">
                 <ul>
-                    <li><a href="#">我的购物车 </a></li>
+                    <li><a href="#" target="_blank">我的购物车 </a></li>
                     <li class="space"></li>
-                    <li><a href="https://github.com/ChoCoo1/218Market/pulls/">提交反馈信息 </a></li>
+                    <li><a href="https://github.com/ChoCoo1/218Market/pulls/" target="_blank">提交反馈信息 </a></li>
                 </ul>
 
             </div>
@@ -58,7 +58,7 @@
         </div>
         <!-- search -->
         <div class="search">
-            <input type="text" class="text" value="请搜索相关产品">
+            <input type="text" class="text" placeholder="请搜索相关产品">
             <button class="btn">搜索</button>
         </div>
     </div>
@@ -68,12 +68,17 @@
             <div class="dropdown fl">
                 <div class="dt"> 商品分类 </div>
             </div>
-            <div class="nav_shop_car fl"><a href="#"><span class="iconfont">&#xe659</span><b>购物车</b> </a>
+            <div class="nav_shop_car fl"><a href="#" target="_blank"><span class="iconfont">&#xe659</span><b>购物车</b> </a>
             </div>
             <div class="nav_text_shopper fl"><a href="#"><span class="iconfont">&#xe637</span> <b>联系商家</b> </a>
             </div>
         </div>
     </div>
+
+
+
+
+
 
     <!-- 主页面 -->
     <div class="w">
@@ -86,34 +91,240 @@
                     <div class="menu_guide"><a href="#">日用品</a></div>
                     <div class="menu_guide"><a href="#">其他</a></div>
                 </div>
+            </div>
+            <!-- 商家信息 -->
+            <div class="news">
+                <p><b>商家信息：今天全场八折！！！</b></p>
+            </div>
+            <!-- 楼层区 -->未完成
+            <div class="floor">
+                <div class="lingshi w">
+                    <div class="box_hd">
+                        <h1>零食</h1>
+                    </div>
+                    <div class="box_table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>商品名字</th>
+                                    <th>商品价格(元/份)</th>
+                                    <th>库存个数(个)</th>
+                                    <th>是否购买(Y/N)</th>
+                                    <th>购买个数(个)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>乐事薯片</td>
+                                    <td>7</td>
+                                    <td>15</td>
+                                    <td><input type="text" value="N"> </td>
+                                    <td><input type="number" value="0" min="0" max="20" required></td>
+                                </tr>
+                                <tr>
+                                    <td>洋葱圈</td>
+                                    <td>5</td>
+                                    <td>17</td>
+                                    <td><input type="text" value="N"> </td>
+                                    <td><input type="number" value="0" min="0" max="20" required></td>
+                                </tr>
+                                <tr>
+                                    <td>芝士条</td>
+                                    <td>6</td>
+                                    <td>4</td>
+                                    <td><input type="text" value="N"> </td>
+                                    <td><input type="number" value="0" min="0" max="20" required></td>
+                                </tr>
+                                <tr>
+                                    <td>鲜虾片</td>
+                                    <td>5</td>
+                                    <td>19</td>
+                                    <td><input type="text" value="N"> </td>
+                                    <td><input type="number" value="0" min="0" max="20" required></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="yinliao w">
+                        <div class="box_hd">
+                            <h1>饮料、酒类</h1>
+                        </div>
+                        <div class="box_table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>商品名字</th>
+                                        <th>商品价格(元/份)</th>
+                                        <th>库存个数(个)</th>
+                                        <th>是否购买(Y/N)</th>
+                                        <th>购买个数(个)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>可乐</td>
+                                        <td>3.5</td>
+                                        <td>10</td>
+                                        <td><input type="text" value="N"> </td>
+                                        <td><input type="number" value="0" min="0" max="20" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td>雪碧</td>
+                                        <td>19.8</td>
+                                        <td>20</td>
+                                        <td><input type="text" value="N"> </td>
+                                        <td><input type="number" value="0" min="0" max="20" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td>啤酒</td>
+                                        <td>19.8</td>
+                                        <td>20</td>
+                                        <td><input type="text" value="N"> </td>
+                                        <td><input type="number" value="0" min="0" max="20" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td>咖啡</td>
+                                        <td>19.8</td>
+                                        <td>20</td>
+                                        <td><input type="text" value="N"> </td>
+                                        <td><input type="number" value="0" min="0" max="20" required></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="riyongpin w">
+                            <div class="box_hd">
+                                <h1>日用品</h1>
+                            </div>
+                            <div class="box_table">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>商品名字</th>
+                                            <th>商品价格(元/份)</th>
+                                            <th>库存个数(个)</th>
+                                            <th>是否购买(Y/N)</th>
+                                            <th>购买个数(个)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>餐巾纸</td>
+                                            <td>3</td>
+                                            <td>25</td>
+                                            <td><input type="text" value="N"> </td>
+                                            <td><input type="number" value="0" min="0" max="20" required></td>
+                                        </tr>
+                                        <tr>
+                                            <td>棉签</td>
+                                            <td>10</td>
+                                            <td>5</td>
+                                            <td><input type="text" value="N"> </td>
+                                            <td><input type="number" value="0" min="0" max="20" required></td>
+                                        </tr>
+                                        <tr>
+                                            <td>电池</td>
+                                            <td>33</td>
+                                            <td>20</td>
+                                            <td><input type="text" value="N"> </td>
+                                            <td><input type="number" value="0" min="0" max="20" required></td>
+                                        </tr>
+                                        <tr>
+                                            <td>xx</td>
+                                            <td>19.8</td>
+                                            <td>20</td>
+                                            <td><input type="text" value="N"> </td>
+                                            <td><input type="number" value="0" min="0" max="20" required></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="qita w">
+                                <div class="box_hd">
+                                    <h1>其他</h1>
+                                </div>
+                                <div class="box_table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>商品名字</th>
+                                                <th>商品价格(元/份)</th>
+                                                <th>库存个数(个)</th>
+                                                <th>是否购买(Y/N)</th>
+                                                <th>购买个数(个)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>乐事薯片</td>
+                                                <td>19.8</td>
+                                                <td>20</td>
+                                                <td><input type="text" value="N"> </td>
+                                                <td><input type="number" value="0" min="0" max="20" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td>乐事薯片</td>
+                                                <td>19.8</td>
+                                                <td>20</td>
+                                                <td><input type="text" value="N"> </td>
+                                                <td><input type="number" value="0" min="0" max="20" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td>乐事薯片</td>
+                                                <td>19.8</td>
+                                                <td>20</td>
+                                                <td><input type="text" value="N"> </td>
+                                                <td><input type="number" value="0" min="0" max="20" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td>乐事薯片</td>
+                                                <td>19.8</td>
+                                                <td>20</td>
+                                                <td><input type="text" value="N"> </td>
+                                                <td><input type="number" value="0" min="0" max="20" required></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
 
 
+                    </div>
 
-
-
+                </div>
 
             </div>
-        </div>
+            <!-- 电梯导航 -->
+            <div class="fixedtool">
+                <ul>
+                    <li class="current">零食</li>
+                    <li>饮料、酒类</li>
+                    <li>日用品</li>
+                    <li>其他</li>
+                </ul>
+            </div>
 
 
-    </div>
 
 
 
 
-
-    <!-- 页尾 -->
-    <div class="footer w">
-        <div class="mod_help">
-            <ul>
-                <li class="shopper_connection">如果网站使用方面出现bug,建议访问<a href="https://github.com/ChoCoo1/218Market/pulls/">https://github.com/ChoCoo1/218Market/pulls/</a>提交错误内容</li>
-                <li class="shopper_connection">网站维护QQ:1753373709 网站维护WX:19457853241 网站维护邮箱:1753373709@qq.com</li>
-            </ul>
-        </div>
-        <div class="mod_copyright">
-            <p>Copyright © 2022 - 2050 218Market.com 版权所有</p>
-        </div>
-    </div>
+            <!-- 页尾 -->
+            <div class="footer w">
+                <div class="mod_help">
+                    <ul>
+                        <li class="shopper_connection">如果网站使用方面出现bug,建议访问<a href="https://github.com/ChoCoo1/218Market/pulls/">https://github.com/ChoCoo1/218Market/pulls/</a>提交错误内容</li>
+                        <li class="shopper_connection">网站维护QQ:1753373709 网站维护WX:19457853241 网站维护邮箱:1753373709@qq.com</li>
+                    </ul>
+                </div>
+                <div class="mod_copyright">
+                    <p>Copyright © 2022 - 2050 218Market.com 版权所有</p>
+                </div>
+            </div>
 </body>
 
 </html>

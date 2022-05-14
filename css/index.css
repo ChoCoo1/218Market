@@ -1,7 +1,6 @@
 .main {
     height: 1000px;
     width: 100%;
-    background-color: pink;
 }
 
 .sort {
@@ -18,18 +17,60 @@
     color: #fff;
     height: 100%;
     line-height: 50px;
-    width: 25%;
+    width: 24.75%;
     color: #fff;
     text-align: center;
     font-size: 18px;
-    box-sizing: content-box;
+    transition: all 0.5s;
 }
 
 .menu_guide:hover {
     background-color: #fff;
-    color: #fa3535;
+    padding-left: 10px;
 }
 
 .menu_guide:hover a {
     color: #fa3535;
+}
+
+.news {
+    height: 30px;
+    background-color: rgb(253, 195, 6);
+    width: 100%;
+    border-top: 2px solid rgb(238, 133, 73);
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #ff5252;
+    margin-top: 20px;
+    color: #fa3535;
+    line-height: 30px;
+    text-align: center;
+}
+
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    width: 70px;
+    left: 50%;
+    margin-left: -700px;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: rgb(241, 67, 96);
+    color: #fff;
 }

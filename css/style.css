@@ -52,3 +52,11 @@ body {
 .clearfix {
     *zoom: 1;
 }
+
+table {
+    width: 100%;
+    margin: 0;
+    border: #e35633 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
