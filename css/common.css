@@ -33,7 +33,24 @@
 }
 
 .header {
-    height: 105px;
+    position: relative;
+    height: 120px;
+    background-color: pink;
 }
 
-.logo {}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: url(../img/logo.png) no-repeat;
+    font-size: 0;
+}
